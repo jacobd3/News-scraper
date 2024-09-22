@@ -1,0 +1,19 @@
+@import "../mediaBreakpoints.scss";
+
+main {
+  background: rgba(255, 255, 255, 0.5);
+  max-width: 800px;
+  overflow: auto;
+  display: grid;
+  grid-template-columns: minmax(auto, 370px) minmax(auto, 370px);
+  grid-template-rows: repeat(10, auto);
+  gap: 40px;
+  padding: 40px 60px;
+  flex: 1;
+}
+
+@media (max-width: $medium) {
+  main {
+    grid-template-columns: minmax(auto, 370px);
+  }
+}

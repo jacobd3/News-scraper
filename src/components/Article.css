@@ -1,0 +1,15 @@
+.article {
+  height: 200px;
+  border-radius: 20px;
+  background-size: cover;
+  display: flex;
+  align-items: flex-end;
+}
+
+.title_wrapper {
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  background: rgba(0, 0, 0, 0.6);
+  padding: 0.6rem;
+  width: 100%;
+}
